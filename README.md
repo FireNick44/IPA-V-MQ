@@ -32,7 +32,7 @@ IPA-V-MQ communicates with the IPA-V-Backend via RabbitMQ. To set up RabbitMQ, f
 1. **Run RabbitMQ with Docker**: Open your terminal and run the following Docker command to start a RabbitMQ container with the management plugin for monitoring:
 
    ```bash
-   docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
+   docker run -it --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
    ```
 
     - The `-it` flag runs the container interactively.
